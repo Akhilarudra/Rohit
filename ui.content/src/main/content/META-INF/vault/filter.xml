@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/reliance" mode="merge"/>
+    <filter root="/content/reliance" mode="merge"/>
+    <filter root="/content/dam/reliance" mode="merge">
+        <exclude pattern="/content/dam/reliance(/.*)?"/>
+        <include pattern="/content/dam/reliance/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/reliance/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/reliance" mode="merge"/>
+</workspaceFilter>

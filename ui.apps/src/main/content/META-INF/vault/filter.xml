@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/reliance/clientlibs"/>
+    <filter root="/apps/reliance/components"/>
+    <filter root="/apps/reliance/i18n"/>
+</workspaceFilter>
